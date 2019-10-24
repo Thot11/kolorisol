@@ -6,7 +6,7 @@
 		margin-bottom: 80px;
 	}
 
-	p{
+	.intro{
 		text-align: center;
 		width: 60%;
 		display: block;
@@ -18,6 +18,7 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
+		margin-bottom: 100px;
 
 		button{
 			background-color: #EC7F00 ;
@@ -36,5 +37,11 @@
 				transition-duration: 0.5s;
 			}
 		}
+	}
+
+	.description{
+		width: 350px;
+		display: block;
+		margin: auto;
 	}
 }
