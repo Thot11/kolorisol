@@ -10,6 +10,10 @@ body {
   font-family: 'Roboto';
 }
 
+footer{
+  background-color: black;
+}
+
 section{
   margin-bottom: 90px;
 }
