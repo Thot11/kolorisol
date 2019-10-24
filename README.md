@@ -5,6 +5,6 @@
 
 # Pour lancer le site en local
 
-- npm install -g gatsby-cli
+- ```npm install -g gatsby-cli```
 
-- gatsby develop
+- ```gatsby develop```
