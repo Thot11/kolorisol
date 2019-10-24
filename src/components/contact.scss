@@ -1,0 +1,31 @@
+.contact{
+
+	.intro{
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	.links{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		a{
+			text-decoration: none;
+		}
+
+		div{
+			color: white;
+			background-color: #EC7F00;
+			font-weight: bold;
+			padding: 10px;
+			margin: 0 40px;
+
+			&:hover{
+				color: #EC7F00;
+				background-color: white;
+				transition-duration: 0.5s;
+			}
+		}
+	}
+}
