@@ -1,6 +1,6 @@
 .activites{
 
-	padding: 0 20%;
+	padding: 0 15%;
 
 	h2{
 		margin-bottom: 80px;
@@ -8,10 +8,10 @@
 
 	.intro{
 		text-align: center;
-		width: 60%;
 		display: block;
 		margin: auto;
 		margin-bottom: 80px;
+		width: 80%;
 	}
 
 	.list-buttons{
@@ -26,10 +26,11 @@
 			color: white;
 			font-weight: bold;
 			text-transform: uppercase;
-			padding: 15px 50px;
+			padding: 20px 60px;
 			clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 			cursor: pointer;
 			transition-duration: 0.5s;
+			font-size: 21px;
 
 			&:hover{
 				color: #EC7F00;
@@ -43,5 +44,25 @@
 		width: 350px;
 		display: block;
 		margin: auto;
+		text-align: justify;
+		margin-bottom: 40px;
+	}
+
+	.tabulation{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.bulle{
+			width: 10px;
+			height: 10px;
+			clip-path: circle(50% at 50% 50%);
+			background-color: grey;
+
+			&:nth-child(2){
+				margin: 0 10px;
+				background-color: #EC7F00;
+			}
+		}
 	}
 }
