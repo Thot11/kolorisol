@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section{
+  margin-bottom: 90px;
+}
+
 h2{
   text-align: center;
   border-bottom: solid #EC7F00 5px;
