@@ -32,6 +32,7 @@
 			cursor: pointer;
 			transition-duration: 0.5s;
 			font-size: 21px;
+			outline: none;
 
 			&:first-child{
 				color: #EC7F00;
@@ -46,7 +47,7 @@
 		}
 	}
 
-	.div-description{		
+	.div-description{
 		margin-bottom: 40px;
 		width: 350px;
 		display: block;
