@@ -19,8 +19,9 @@
 		flex-direction: row;
 		justify-content: space-between;
 		margin-bottom: 100px;
+		margin-left: 50px;
 
-		button{
+		.button-description{
 			background-color: #EC7F00 ;
 			border: none;
 			color: white;
@@ -32,6 +33,11 @@
 			transition-duration: 0.5s;
 			font-size: 21px;
 
+			&:first-child{
+				color: #EC7F00;
+				background-color: white;
+			}
+
 			&:hover{
 				color: #EC7F00;
 				background-color: white;
@@ -40,29 +46,50 @@
 		}
 	}
 
-	.description{
+	.div-description{		
+		margin-bottom: 40px;
 		width: 350px;
 		display: block;
 		margin: auto;
-		text-align: justify;
-		margin-bottom: 40px;
-	}
+		height: 300px;
+		position: relative;
+		overflow: hidden;
 
-	.tabulation{
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
+		.description{
+			text-align: justify;
+			width: 350px;
+			position: absolute;
+			top: 0;
+			left: -400px;
 
-		.bulle{
-			width: 10px;
-			height: 10px;
-			clip-path: circle(50% at 50% 50%);
-			background-color: grey;
+			&:first-child{
+				left: 0;
+			}
+		}
 
-			&:nth-child(2){
-				margin: 0 10px;
-				background-color: #EC7F00;
+		.tabulation{
+			position: absolute;
+			bottom: 0;
+			left: 150px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+	
+			.bulle{
+				width: 10px;
+				height: 10px;
+				clip-path: circle(50% at 50% 50%);
+				background-color: #C4C4C4;
+
+				&:first-child{
+					background-color: #EC7F00;
+				}
+	
+				&:nth-child(2){
+					margin: 0 10px;
+				}
 			}
 		}
 	}
+	
 }
