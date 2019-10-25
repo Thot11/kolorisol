@@ -49,12 +49,11 @@ const changePeinture = () => {
 
 	anime({
 		targets: ['.description-ravallement','.description-isolation'],
-		left: '350px',
+		left: '-400px',
 		opacity: '0',
 		easing: 'linear',
 		duration: 200
 	});
-
 
 	anime({
 		targets: '.button-peinture',
@@ -110,7 +109,7 @@ const changeIsolation = () => {
 
 	anime({
 		targets: ['.description-peinture','.description-ravallement'],
-		left: '350px',
+		left: '-400px',
 		opacity: '0',
 		easing: 'linear',
 		duration: 200
@@ -155,11 +154,12 @@ const changeRavallement = () => {
 
 	anime({
 		targets: ['.description-isolation','.description-peinture'],
-		left: '350px',
+		left: '-400px',
 		opacity: 0,
 		easing: 'linear',
 		duration: 200
 	});
+
 
 	anime({
 		targets: '.button-ravallement',
